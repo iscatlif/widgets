@@ -6,6 +6,6 @@ import App from "./App";
 ReactDOM.render(<App />, document.querySelector("#root"));
 
 // TODO make this conditional on development environment?
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
